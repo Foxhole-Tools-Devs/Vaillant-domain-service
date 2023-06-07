@@ -1,0 +1,31 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        schema_update:
+          unique_constraint_strategy: RECREATE_QUIETLY
+    hibernate:
+      ddl-auto: update
+  application:
+    name: VaillantBack
+  datasource:
+    password: password
+    username: user
+    url: jdbc:postgresql://localhost:5432/vaillant
+
+xyz:
+  vaillant:
+    poc:
+      front:
+        service:
+          url: ${FRONT_SERVICE_URL:http://localhost:3000}
+      back:
+        service:
+          url: ${BACK_SERVICE_URL:http://localhost:8080}
+      discord:
+        service:
+          url: ${DISCORD_SERVICE_URL:http://localhost:7000}
+
+server:
+  port: ${BACK_SERVICE_PORT:8080}
