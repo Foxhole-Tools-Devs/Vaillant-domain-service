@@ -25,7 +25,7 @@ xyz:
           url: ${BACK_SERVICE_URL:http://localhost:8080}
       discord:
         service:
-          url: ${DISCORD_SERVICE_URL:http://localhost:7000}
+          url: ${DISCORD_SERVICE_URL:http://localhost:8079}
 
 server:
   port: ${BACK_SERVICE_PORT:8080}
