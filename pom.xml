@@ -10,10 +10,10 @@
         <version>3.1.0</version>
     </parent>
 
-    <groupId>xyz.vaillant.poc</groupId>
+    <groupId>xyz.vaillant.poc.back</groupId>
     <artifactId>vaillant-domain-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Application Parent</name>
+    <name>Application Domain Parent</name>
     <packaging>pom</packaging>
 
     <properties>
@@ -43,9 +43,9 @@
     </properties>
 
     <modules>
-        <module>api</module>
-        <module>core</module>
-        <module>ws</module>
+        <module>domain-api</module>
+        <module>domain-core</module>
+        <module>domain-ws</module>
     </modules>
 
     <dependencyManagement>
