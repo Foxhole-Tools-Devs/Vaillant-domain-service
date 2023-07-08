@@ -11,7 +11,7 @@
 
     <artifactId>domain-ws</artifactId>
     <name>Vaillant Domain Webservice</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
