@@ -56,7 +56,7 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>xyz.vaillant.poc</groupId>
+            <groupId>xyz.vaillant.poc.back</groupId>
             <artifactId>domain-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
