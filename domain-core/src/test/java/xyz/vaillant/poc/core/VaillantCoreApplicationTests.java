@@ -7,7 +7,7 @@ import org.springframework.test.context.ContextConfiguration;
 import xyz.vaillant.poc.back.core.config.CoreConfig;
 
 @DataJpaTest
-@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.AUTO_CONFIGURED)
 @ContextConfiguration(classes = CoreConfig.class)
 public class VaillantCoreApplicationTests {
 

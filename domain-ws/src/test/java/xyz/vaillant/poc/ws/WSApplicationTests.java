@@ -1,11 +1,14 @@
 package xyz.vaillant.poc.ws;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureTestEntityManager;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.ContextConfiguration;
+import xyz.vaillant.poc.core.config.CoreConfig;
 
-@AutoConfigureTestEntityManager
-@SpringBootTest
+@DataJpaTest
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.AUTO_CONFIGURED)
+@ContextConfiguration(classes = CoreConfig.class)
 public class WSApplicationTests {
 
     @Test

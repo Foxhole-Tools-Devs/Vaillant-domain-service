@@ -8,8 +8,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootConfiguration
 @EnableTransactionManagement
-@EntityScan("xyz.vaillant.poc.core.model")
-@EnableJpaRepositories("xyz.vaillant.poc.core.repository")
+@EntityScan("xyz.vaillant.poc.back.core.model")
+@EnableJpaRepositories("xyz.vaillant.poc.back.core.repository")
 @ComponentScan("xyz.vaillant.poc")
 public class CoreConfig {
 
