@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>xyz.vaillant.poc.back</groupId>
-        <artifactId>vaillant-domain-parent</artifactId>
+        <artifactId>vaillant-domain-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
