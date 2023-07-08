@@ -1,0 +1,3 @@
+[submodule "domain-api"]
+	path = domain-api
+	url = https://github.com/Foxhole-Tools-Devs/Vaillant-domain-service-api.git
