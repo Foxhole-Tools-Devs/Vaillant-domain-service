@@ -14,13 +14,19 @@ spring:
     username: user
     url: jdbc:postgresql://localhost:5432/vaillant
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, health, metrics
+
 xyz:
   vaillant:
     poc:
       front:
         service:
           url: ${FRONT_SERVICE_URL:http://localhost:3000}
-      back:
+      domain:
         service:
           url: ${BACK_SERVICE_URL:http://localhost:8080}
       discord:

@@ -9,4 +9,6 @@ import xyz.vaillant.poc.back.core.config.CoreConfig;
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @ContextConfiguration(classes = CoreConfig.class)
 public class ClanOnboardingServiceOnboardingJoinClanTests {
+
+
 }
